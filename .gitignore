@@ -1,0 +1,24 @@
+cat <<EOF > .gitignore
+# Maven
+target/
+*.log
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+
+# Docker
+**/docker-data/
+**/mysql-data/
+
+# Environment
+.env
+
+# Node (if any)
+node_modules/
+EOF
+
